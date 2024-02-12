@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="home-text">
         <h4>Hello</h4>
         <h1>
-          I'M Mal<span>yk</span> <br /> Vital<span>ii</span>
+          I'm Mal<span>yk</span> <br /> Vital<span>ii</span>
         </h1>
         <h3>Full-Stack Developer</h3>
         <a
