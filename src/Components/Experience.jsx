@@ -1,11 +1,10 @@
 import React from "react";
-import html from "../Helpers/icons/html (1).png";
-import css from "../Helpers/icons/css (1).png";
-import react from "../Helpers/icons/react (1).png";
-import js from "../Helpers/icons/javascript (2).png";
-import github from "../Helpers/icons/github (1).png";
+import html from "../Helpers/icons/html&css.png";
+// import react from "../Helpers/icons/react (1).png";
+// import js from "../Helpers/icons/javascript (2).png";
+// import github from "../Helpers/icons/github (1).png";
 // import ex from "../Helpers/icons/";
-import node from "../Helpers/icons/nodejs (1).png";
+// import node from "../Helpers/icons/nodejs (1).png";
 // import bts from "../Helpers/icons"
 import ts from "../Helpers/icons/icons8-typescript-48.png";
 import mui from "../Helpers/icons/material-ui.png";
@@ -97,7 +96,7 @@ const Experience = () => {
     },
   ];
 
-  const allImgs = [html, css, react, js, github, node, ts, mui, red];
+  const allImgs = [html, ts, mui, red];
 
   return (
     <section id="experience">
