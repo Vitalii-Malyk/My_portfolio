@@ -1,14 +1,11 @@
 import React from "react";
 import html from "../Helpers/icons/html&css.png";
-// import react from "../Helpers/icons/react (1).png";
-// import js from "../Helpers/icons/javascript (2).png";
-// import github from "../Helpers/icons/github (1).png";
-// import ex from "../Helpers/icons/";
-// import node from "../Helpers/icons/nodejs (1).png";
-// import bts from "../Helpers/icons"
+import react from "../Helpers/icons/react (2).png";
+import js from "../Helpers/icons/icons8-typescript-48.png";
+import github from "../Helpers/icons/git (1).png";
+import node from "../Helpers/icons/nodeimg.png";
 import ts from "../Helpers/icons/icons8-typescript-48.png";
 import mui from "../Helpers/icons/material-ui.png";
-import red from "../Helpers/icons/material-ui.png";
 
 const Experience = () => {
   const experience = [
@@ -33,19 +30,19 @@ const Experience = () => {
         },
         {
           id: 5,
-          title: "Responsive/Adaptive design",
-        },
-        {
-          id: 6,
           title: "Redux Toolkit",
         },
         {
-          id: 7,
+          id: 6,
           title: "TypeScript",
         },
         {
-          id: 8,
+          id: 7,
           title: "Bootstrap",
+        },
+        {
+          id: 8,
+          title: "Material-ui",
         },
         {
           id: 9,
@@ -57,18 +54,14 @@ const Experience = () => {
         },
         {
           id: 11,
-          title: "REST API",
+          title: "REST APIs",
         },
         {
           id: 12,
-          title: "REST API",
-        },
-        {
-          id: 13,
           title: "Git",
         },
         {
-          id: 14,
+          id: 13,
           title: "GitHub",
         },
       ],
@@ -82,21 +75,33 @@ const Experience = () => {
         },
         {
           id: 2,
-          title: "Express Js",
-        },
-        {
-          id: 3,
-          title: "MongoDB",
+          title: "TypeScript",
         },
         {
           id: 4,
+          title: "Express Js",
+        },
+        {
+          id: 5,
+          title: "Mongoose",
+        },
+        {
+          id: 6,
+          title: "MongoDB",
+        },
+        {
+          id: 7,
           title: "FastApi",
+        },
+        {
+          id: 8,
+          title: "MySQL",
         },
       ],
     },
   ];
 
-  const allImgs = [html, ts, mui, red];
+  const allImgs = [html, js, react, ts, node, mui, github];
 
   return (
     <section id="experience">

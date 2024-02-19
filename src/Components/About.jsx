@@ -1,10 +1,15 @@
 import React from "react";
+import { ReactComponent as LinkedInn } from "../Helpers/icons/mdi--linkedin.svg";
+import { ReactComponent as GitHub } from "../Helpers/icons/bxl--github.svg";
 
 const About = () => {
   return (
     <section className="about" id="about">
       <div className="about-img">
-        <img src="#" />
+        <img
+          src="https://res.cloudinary.com/dlhwk4nof/image/upload/v1708379204/photo1669630193_e7p4sj.jpg"
+          alt="foto"
+        />
       </div>
       <div className="about-text">
         <h2>About Me</h2>
@@ -20,25 +25,26 @@ const About = () => {
           style={{ marginTop: "-15px", marginBottom: "15px" }}
         >
           <a href="www.linkedin.com/in/vitalii-malyk" target="blank">
-            <i className="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin">
+              <LinkedInn />
+            </i>
           </a>
           <a href="https://github.com/Vitalii-Malyk" target="blank">
-            <i className="bx bxl-github"></i>
+            <i className="bx bxl-github">
+              <GitHub />
+            </i>
           </a>
         </div>
         <div className="about-gri">
           <div className="about-in">
             <h5>1. Effective communication</h5>
           </div>
-
           <div className="about-in">
             <h5>2. Сreative ideas</h5>
           </div>
-
           <div className="about-in">
             <h5>3. Analytical approach</h5>
           </div>
-
           <div className="about-in">
             <h5>4. High Quality</h5>
           </div>

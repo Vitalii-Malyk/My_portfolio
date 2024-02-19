@@ -4,60 +4,39 @@ import Project from "./Project";
 const Portfolio = () => {
   const data = [
     {
-      name: "",
-      des: "",
-      live: "",
-      github: "",
-      shot: "*.png",
-    },
-    {
-      name: "",
-      des: "",
-      live: "",
-      github: "",
-      shot: "",
-    },
-    {
-      name: "",
-      des: "",
-      live: "",
-      github: "",
-      shot: "",
-    },
-    {
-      name: "",
-      des: "",
-      live: "",
-      github: "",
-      shot: "",
+      name: "PowerPulse",
+      des: "An application for personalized diet adjustment based on the user's physical characteristics and lifestyle.",
+      live: "https://powerpulse-fitness.netlify.app/welcome",
+      github: "https://github.com/Robertw8/powerpulse",
+      shot: "https://res.cloudinary.com/dlhwk4nof/image/upload/v1708374144/PowerPulse_stsehw.png",
     },
     {
       name: "Phonebook",
       des: "Adaptive application. Position: developer. I created the project using React and the Redux Toolkit.",
       live: "https://vitalii-malyk.github.io/goit-react-hw-08-phonebook/",
       github: "https://github.com/Vitalii-Malyk/goit-react-hw-08-phonebook",
-      shot: "",
+      shot: "https://res.cloudinary.com/dlhwk4nof/image/upload/v1708374144/telefon-bgc_mdjyvd.jpg",
     },
     {
       name: "Film library",
       des: "Adaptive application. Position: developer. I created a project using React and and hooks.",
       live: "https://vitalii-malyk.github.io/goit-react-hw-05-movies/",
       github: "https://github.com/Vitalii-Malyk/goit-react-hw-05-movies",
-      shot: "",
+      shot: "https://res.cloudinary.com/dlhwk4nof/image/upload/v1708374145/FilmLibrary_bj1cbw.png",
     },
     {
       name: "TastyTreats",
-      des: "Adaptive site layout on vanilla JavaScript. Position: developer.",
+      des: "Responsive site layout for tasty treats in vanilla JavaScript. Position: developer.",
       live: "https://devmasterx.github.io/project-TEAM-JS-2023/",
       github: "https://github.com/DevMasterX/project-TEAM-JS-2023",
-      shot: "",
+      shot: "https://res.cloudinary.com/dlhwk4nof/image/upload/v1708374145/TastyTreats_c6oc5v.png",
     },
     {
       name: "Wristwatch",
-      des: "Responsive layout website. Position: Scrum Master, developer. We created a project on Github, checked for assembly and site errors.",
+      des: "Responsive site layout for selling wristwatches. Position: Scrum Master, developer.",
       live: "https://vitiukvv.github.io/project-wristwatch/",
       github: "https://github.com/VitiukVV/project-wristwatch",
-      shot: "",
+      shot: "https://res.cloudinary.com/dlhwk4nof/image/upload/v1708374146/Wristwatch_aitetu.png",
     },
   ];
   return (
@@ -67,11 +46,11 @@ const Portfolio = () => {
         <h4>Some of my works</h4>
       </div>
 
-      <div className="portfolio-content">
+      <ul className="portfolio-content">
         {data.map((item, i) => (
           <Project item={item} key={i} />
         ))}
-      </div>
+      </ul>
     </section>
   );
 };

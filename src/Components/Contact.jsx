@@ -1,4 +1,7 @@
 import React from "react";
+import { ReactComponent as LinkedInn } from "../Helpers/icons/mdi--linkedin.svg";
+import { ReactComponent as GitHub } from "../Helpers/icons/bxl--github.svg";
+import { ReactComponent as Telegram } from "../Helpers/icons/ic--baseline-telegram.svg";
 
 const Contact = () => {
   return (
@@ -21,26 +24,25 @@ const Contact = () => {
         </div>
         <div className="contact-icons">
           <a href="https://www.linkedin.com/in/vitalii-malyk/" target="blank">
-            <i className="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin">
+              <LinkedInn />
+            </i>
           </a>
           <a href="https://github.com/Vitalii-Malyk" target="blank">
-            <i className="bx bxl-github"></i>
+            <i className="bx bxl-github">
+              <GitHub />
+            </i>
           </a>
-          <a href="#">
-            <i className="bx bxl-behance"></i>
-          </a>
-          <a href="#">
-            <i className="bx bxl-instagram"></i>
-          </a>
-          <a href="#">
-            <i className="bx bxl-dribbble"></i>
+          <a href="https://t.me/Vit_lii_M" target="blank">
+            <i className="bx bxl-telegram">
+              <Telegram />
+            </i>
           </a>
         </div>
       </div>
 
       <div className="contact-form">
         <form action="">
-          {/* <input type='' placeholder='Enter Your Name' required /> */}
           <input type="email" placeholder="Enter Your Email" required />
           <input type="" placeholder="Enter Your Subject" />
           <textarea

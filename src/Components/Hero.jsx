@@ -9,7 +9,7 @@ const Hero = () => {
         <h1>
           I'm Mal<span>yk</span> <br /> Vital<span>ii</span>
         </h1>
-        <h3>Full-Stack Developer</h3>
+        <h3>Front End Developer</h3>
         <a
           href={require("../Helpers/data/Vitalii_Malyk_developer.pdf")}
           download

@@ -1,13 +1,16 @@
 import React from "react";
+import { ReactComponent as ArrowUP } from "../Helpers/icons/arrowUP.svg";
 
 const Footer = () => {
   return (
     <>
       <div className="last-text">
-        <p>Developed with love by Hussein Omar © 2022</p>
+        <p>Developed with love by Vitalii Malyk © 2024</p>
       </div>
       <a href="#" className="top">
-        <i className="bx bx-up-arrow-alt"></i>
+        <i className="bx bx-up-arrow-alt">
+          <ArrowUP />
+        </i>
       </a>
     </>
   );

@@ -3,11 +3,11 @@ import React, { useState } from "react";
 const Project = ({ item }) => {
   const [star, setStar] = useState(false);
   return (
-    <div className="row">
-      <img src={item.shot} />
+    <li className="row">
+      <img src={item.shot} alt="#" />
       <div className="main-row">
         <div className="row-text">
-          <h6>{item.name}</h6>
+          <h3>{item.name}</h3>
         </div>
         <div className="row-icon" onClick={() => setStar((prev) => !prev)}>
           {star ? (
@@ -17,7 +17,7 @@ const Project = ({ item }) => {
           )}
         </div>
       </div>
-      <h3>{item.des}</h3>
+      <h6>{item.des}</h6>
       <div
         style={{
           diplay: "flex",
@@ -42,7 +42,7 @@ const Project = ({ item }) => {
           Live
         </a>
       </div>
-    </div>
+    </li>
   );
 };
 
