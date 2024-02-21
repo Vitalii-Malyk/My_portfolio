@@ -1,10 +1,11 @@
 import React from "react";
+import { ReactComponent as Logo } from "../Helpers/icons/line-md--computer.svg";
 
 const Header = () => {
   return (
     <header>
       <a href="#" className="logo">
-        <img src="#" alt="logo" />
+        <Logo />
       </a>
       <div className="bx bx-menu" id="menu-icon"></div>
 
