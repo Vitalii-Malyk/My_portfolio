@@ -117,25 +117,25 @@ const Experience = () => {
         <h2 className="title-h2">What Skills I Have</h2>
       </div>
 
-      <div className="experience-container">
+      <ul className="experience-container">
         {experience.map(({ title, items }) => (
-          <div key={title} className="experience-item">
+          <li key={title} className="experience-item">
             <h2 className="experience-title">{title}</h2>
-            <div className="experience-item-container">
+            <ul className="experience-item-container">
               {items.map(({ id, title, level }) => (
-                <>
+                <li key={id}>
                   <div className="feature">
                     <div className="feature-inner">
                       <h3>{title}</h3>
                       <p>{level}</p>
                     </div>
                   </div>
-                </>
+                </li>
               ))}
-            </div>
-          </div>
+            </ul>
+          </li>
         ))}
-      </div>
+      </ul>
 
       <div className="slider">
         <div className="slide-track">
