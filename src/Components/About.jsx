@@ -37,19 +37,19 @@ const About = () => {
         </div>
         <div className="about-gri">
           <div className="about-in">
-            <h5>1. Effective communication</h5>
+            <h5>Effective communication</h5>
           </div>
           <div className="about-in">
-            <h5>2. Сreative ideas</h5>
+            <h5>Сreative ideas</h5>
           </div>
           <div className="about-in">
-            <h5>3. Analytical approach</h5>
+            <h5>Analytical approach</h5>
           </div>
           <div className="about-in">
-            <h5>4. High Quality</h5>
+            <h5>High Quality</h5>
           </div>
           <div className="about-in">
-            <h5>5. Technological competence</h5>
+            <h5>Technological competence</h5>
           </div>
         </div>
         <a href="#contact" className="btn">
