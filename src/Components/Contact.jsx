@@ -96,6 +96,7 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             pattern="([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)"
+            autoComplete="off"
             required
           />
           <input
@@ -104,6 +105,7 @@ const Contact = () => {
             placeholder="Enter Your Subject"
             value={formData.subject}
             onChange={handleChange}
+            autoComplete="off"
           />
           <textarea
             name="message"
