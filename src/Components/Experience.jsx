@@ -1,11 +1,21 @@
 import React from "react";
-import html from "../Helpers/icons/html&css.png";
-import react from "../Helpers/icons/react (2).png";
-// import js from "../Helpers/icons/icons8-typescript-48.png";
-import github from "../Helpers/icons/git (1).png";
-import node from "../Helpers/icons/nodeimg.png";
-// import ts from "../Helpers/icons/icons8-typescript-48.png";
-// import mui from "../Helpers/icons/material-ui.png";
+import html from "../Helpers/data/logos/html.svg";
+import css from "../Helpers/data/logos/css.svg";
+import react from "../Helpers/data/logos/react.svg";
+import github from "../Helpers/data/logos/github.svg";
+import git from "../Helpers/data/logos/git.svg";
+import js from "../Helpers/data/logos/js.svg";
+import node from "../Helpers/data/logos/nodejs.svg";
+import mui from "../Helpers/data/logos/material-ui.svg";
+import ts from "../Helpers/data/logos/typescript.svg";
+import mongodb from "../Helpers/data/logos/mongodb.svg";
+import bootstrap from "../Helpers/data/logos/bootstrap.svg";
+import redux from "../Helpers/data/logos/redux.svg";
+import webpack from "../Helpers/data/logos/webpack.svg";
+import figma from "../Helpers/data/logos/figma.svg";
+import fastApi from "../Helpers/data/logos/fastapi.svg";
+import canva from "../Helpers/data/logos/canva.svg";
+import autoCAD from "../Helpers/data/logos/autocad.svg";
 
 const Experience = () => {
   const experience = [
@@ -101,7 +111,25 @@ const Experience = () => {
     },
   ];
 
-  const allImgs = [html, react, node, github];
+  const allImgs = [
+    html,
+    css,
+    js,
+    react,
+    node,
+    ts,
+    redux,
+    fastApi,
+    github,
+    git,
+    mui,
+    bootstrap,
+    mongodb,
+    webpack,
+    figma,
+    canva,
+    autoCAD,
+  ];
 
   return (
     <section id="experience">
