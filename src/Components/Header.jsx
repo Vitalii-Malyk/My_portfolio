@@ -7,8 +7,6 @@ const Header = () => {
       <a href="#home" className="logo">
         <Logo />
       </a>
-      <div className="bx bx-menu" id="menu-icon"></div>
-
       <ul className="navbar">
         <li>
           <a href="#home">Home</a>
