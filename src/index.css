@@ -371,6 +371,10 @@ form textarea {
   border-radius: 0.5rem;
   display: flex;
 }
+.top i:hover {
+  background: transparent;
+  border-inline: 1px solid var(--main-color);
+}
 
 @media (max-width: 1325px) {
   header {
