@@ -4,35 +4,9 @@ import { ReactComponent as GitHub } from "../Helpers/icons/bxl--github.svg";
 import { ReactComponent as Telegram } from "../Helpers/icons/ic--baseline-telegram.svg";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    email: "",
-    subject: "",
-    message: "",
-  });
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
-
-  const clearForm = () => {
-    setFormData({
-      email: "",
-      subject: "",
-      message: "",
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(e.target.value);
-    setIsSubmitted(true);
-    clearForm();
-  };
+  const [client, setClient] = useState({ name: "", email: "", message: "" });
+  const [sentStatus, setSentStatus] = useState("");
+  const [valid, setValid] = useState(false);
 
   return (
     <section className="contact" id="contact">
@@ -86,42 +60,116 @@ const Contact = () => {
           </a>
         </div>
       </div>
-
       <div className="contact-form">
-        <form onSubmit={handleSubmit}>
+        <form
+          action="https://formspree.io/f/meqykydd"
+          onSubmit={async (el) => {
+            el.preventDefault();
+            const options = {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(client),
+            };
+
+            await fetch("https://formspree.io/f/meqykydd", options)
+              .then((response) => {
+                if (response.ok) {
+                  setSentStatus(true);
+                  document.querySelector("#formU").reset();
+                }
+                return response.json();
+              })
+              .catch(() => setSentStatus(false));
+          }}
+          method="post"
+          id="formU"
+        >
           <input
-            type="email"
-            name="email"
-            placeholder="Enter Your Email"
-            value={formData.email}
-            onChange={handleChange}
-            pattern="([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)"
+            type="text"
+            name="name"
+            onChange={(el) => {
+              setClient({
+                ...client,
+                name: el.target.value,
+              });
+              if (
+                el.target.value !== "" &&
+                client.email !== "" &&
+                client.message !== ""
+              ) {
+                setValid(true);
+              } else {
+                setValid(false);
+              }
+            }}
+            placeholder="Your Name"
+            min="2"
+            maxLength="30"
             autoComplete="off"
             required
           />
           <input
-            type="text"
-            name="subject"
-            placeholder="Enter Your Subject"
-            value={formData.subject}
-            onChange={handleChange}
+            type="email"
+            name="email"
+            id="email"
+            onChange={(el) => {
+              setClient({
+                ...client,
+                email: el.target.value,
+              });
+              if (
+                el.target.value !== "" &&
+                client.name !== "" &&
+                client.message !== ""
+              ) {
+                setValid(true);
+              } else {
+                setValid(false);
+              }
+            }}
+            placeholder="Your Email"
             autoComplete="off"
+            required
           />
           <textarea
             name="message"
             id=""
+            className="userSMS "
+            onChange={(el) => {
+              setClient({
+                ...client,
+                message: el.target.value,
+              });
+              if (
+                el.target.value !== "" &&
+                client.email !== "" &&
+                client.name !== ""
+              ) {
+                setValid(true);
+              } else {
+                setValid(false);
+              }
+            }}
             cols="40"
             rows="10"
-            placeholder="Enter Your Message"
-            value={formData.message}
-            onChange={handleChange}
+            placeholder="Hey I'd like to connect to..."
             required
-          ></textarea>
-          <input type="submit" value="Submit" className="send" />
+          />
+          {sentStatus && <p>Your Message was sent successfully</p>}
+          {sentStatus === false && (
+            <p>
+              Uups! Could not sent your Message please check your connection and
+              try again!
+            </p>
+          )}
+          <button
+            className={valid ? "btn" : "btn"}
+            disabled={!valid}
+            type="submit"
+          >
+            Send
+          </button>
         </form>
-        {isSubmitted && (
-          <p style={{ color: "gray", alignItems: "end" }}>Send successful!</p>
-        )}
       </div>
     </section>
   );
