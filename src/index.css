@@ -102,7 +102,11 @@ span {
   background: transparent;
   border-inline: 1px solid var(--main-color);
 }
-
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 header.sticky {
   padding: 10px 16%;
   background: var(--bg-color);
