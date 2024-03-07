@@ -1,16 +1,37 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/my_portfolio/static/js/main.bf970cd3.js",
-    "static/js/592.6647c214.chunk.js": "/my_portfolio/static/js/592.6647c214.chunk.js",
-    "static/media/logo.svg": "/my_portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/my_portfolio/index.html",
-    "main.f855e6bc.css.map": "/my_portfolio/static/css/main.f855e6bc.css.map",
-    "main.bf970cd3.js.map": "/my_portfolio/static/js/main.bf970cd3.js.map",
-    "592.6647c214.chunk.js.map": "/my_portfolio/static/js/592.6647c214.chunk.js.map"
+    "main.css": "/static/css/main.63dc4b06.css",
+    "main.js": "/static/js/main.7659c28f.js",
+    "static/media/Vitalii_Malyk_developer.pdf": "/static/media/Vitalii_Malyk_developer.23f83b09e949035cf73e.pdf",
+    "static/media/hero.svg": "/static/media/hero.09ec162a770b488a1517281d3e84a139.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.129dc2142537a80b07fffbc181c46b5b.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.6c4749886ee30281b460ffbea7deefe2.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.8397a1b7d3faf30dbf5caa9f9fac8cdc.svg",
+    "static/media/fastapi.svg": "/static/media/fastapi.2e2a5914aefdb5af619cf6a5057c3f2c.svg",
+    "static/media/typescript.svg": "/static/media/typescript.4a16de9e21441814e592608b471cf986.svg",
+    "static/media/react.svg": "/static/media/react.e68423618159657b8d818336ecc98a82.svg",
+    "static/media/canva.svg": "/static/media/canva.48101ceaed43f553210b3c5f20a53559.svg",
+    "static/media/github.svg": "/static/media/github.b929e33f67ba16cdccd97f2d248b57fe.svg",
+    "static/media/git.svg": "/static/media/git.4daf785bae077e068386593d5a188d97.svg",
+    "static/media/webpack.svg": "/static/media/webpack.8bdc62d7119321e88f486dcac3f71868.svg",
+    "static/media/redux.svg": "/static/media/redux.e5802665ad18e50367b666eecf69725e.svg",
+    "static/media/autocad.svg": "/static/media/autocad.4931efe3abdc449cc60bf3678e2db387.svg",
+    "static/media/material-ui.svg": "/static/media/material-ui.068fa355bc226ef5e9c7508200931fc6.svg",
+    "static/media/figma.svg": "/static/media/figma.94d3bd20fbb4364d9f3a5fb179e64c2b.svg",
+    "static/media/html.svg": "/static/media/html.e4f10506c985296787f92d64c800227c.svg",
+    "static/media/bxl--github.svg": "/static/media/bxl--github.97379e0ca81298a708aeff3516d20554.svg",
+    "static/media/css.svg": "/static/media/css.bc3a3577d8f5b42eb93639f6d8f91c6f.svg",
+    "static/media/js.svg": "/static/media/js.7d9d53ca2280810ee25e758b7d8c9384.svg",
+    "index.html": "/index.html",
+    "static/media/ic--baseline-telegram.svg": "/static/media/ic--baseline-telegram.417efa7358f1bdadf710b35a6144efac.svg",
+    "static/media/mdi--linkedin.svg": "/static/media/mdi--linkedin.f27a2535baf0dddc452596bbcd23830c.svg",
+    "static/media/mdi--application-braces-outline.svg": "/static/media/mdi--application-braces-outline.a414ed77254cd9fb6933ec2dfee8fe78.svg",
+    "static/media/arrowUP.svg": "/static/media/arrowUP.77e6984f9cd0613c5b887aeb795cb13a.svg",
+    "main.63dc4b06.css.map": "/static/css/main.63dc4b06.css.map",
+    "main.7659c28f.js.map": "/static/js/main.7659c28f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.bf970cd3.js"
+    "static/css/main.63dc4b06.css",
+    "static/js/main.7659c28f.js"
   ]
 }
