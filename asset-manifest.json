@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.63dc4b06.css",
-    "main.js": "/my_portfolio/static/js/main.11d706de.js",
-    "static/media/Vitalii_Malyk_developer.pdf": "/my_portfolio/static/media/Vitalii_Malyk_developer.23f83b09e949035cf73e.pdf",
+    "main.css": "/my_portfolio/static/css/main.fc4976eb.css",
+    "main.js": "/my_portfolio/static/js/main.188f262a.js",
+    "static/media/Vitalii_Malyk_developer.pdf": "/my_portfolio/static/media/Vitalii_Malyk_developer.e2427b540bf32d49cf90.pdf",
     "static/media/hero.svg": "/my_portfolio/static/media/hero.09ec162a770b488a1517281d3e84a139.svg",
     "static/media/bootstrap.svg": "/my_portfolio/static/media/bootstrap.129dc2142537a80b07fffbc181c46b5b.svg",
     "static/media/mongodb.svg": "/my_portfolio/static/media/mongodb.6c4749886ee30281b460ffbea7deefe2.svg",
@@ -27,11 +27,11 @@
     "static/media/mdi--linkedin.svg": "/my_portfolio/static/media/mdi--linkedin.f27a2535baf0dddc452596bbcd23830c.svg",
     "static/media/mdi--application-braces-outline.svg": "/my_portfolio/static/media/mdi--application-braces-outline.a414ed77254cd9fb6933ec2dfee8fe78.svg",
     "static/media/arrowUP.svg": "/my_portfolio/static/media/arrowUP.77e6984f9cd0613c5b887aeb795cb13a.svg",
-    "main.63dc4b06.css.map": "/my_portfolio/static/css/main.63dc4b06.css.map",
-    "main.11d706de.js.map": "/my_portfolio/static/js/main.11d706de.js.map"
+    "main.fc4976eb.css.map": "/my_portfolio/static/css/main.fc4976eb.css.map",
+    "main.188f262a.js.map": "/my_portfolio/static/js/main.188f262a.js.map"
   },
   "entrypoints": [
-    "static/css/main.63dc4b06.css",
-    "static/js/main.11d706de.js"
+    "static/css/main.fc4976eb.css",
+    "static/js/main.188f262a.js"
   ]
 }
