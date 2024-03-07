@@ -1,12 +1,10 @@
 import React from "react";
-import { ReactComponent as Logo } from "../Helpers/icons/mdi--application-braces-outline.svg";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
     <header>
-      <a href="#home" className="logo">
-        <Logo />
-      </a>
+      <MobileMenu />
       <ul className="navbar">
         <li>
           <a href="#home">Home</a>
