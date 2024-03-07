@@ -495,6 +495,14 @@ form textarea {
 }
 
 /* ================== MEDIA QUERY =================== */
+@media screen and (min-width: 830px) {
+  .menu-toggle {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
 @media screen and (max-width: 1440px) {
   header {
     justify-content: center;
@@ -507,12 +515,6 @@ form textarea {
     grid-template-columns: repeat(3, minmax(150px, 1fr));
     row-gap: 0.9rem;
     text-align: center;
-  }
-  .menu-toggle {
-    display: none;
-  }
-  .mobile-menu {
-    display: none;
   }
 }
 
@@ -586,6 +588,8 @@ form textarea {
     animation: slideDown 1s ease forwards;
   }
   .mobile-menu.closed {
+    display: block;
+    width: clamp(290px, 95%, 750px);
     animation: slideUp 1s ease forwards;
   }
   .wrapMob {
