@@ -24,7 +24,7 @@ const About = () => {
           className="contact-icons"
           style={{ marginTop: "-15px", marginBottom: "15px" }}
         >
-          <a href="www.linkedin.com/in/vitalii-malyk" target="blank">
+          <a href="https://www.linkedin.com/in/vitalii-malyk" target="blank">
             <i className="bx bxl-linkedin">
               <LinkedInn />
             </i>

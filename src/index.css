@@ -502,11 +502,11 @@ form textarea {
   .mobile-menu {
     display: none;
   }
-}
-@media screen and (max-width: 1440px) {
   header {
     justify-content: center;
   }
+}
+@media screen and (max-width: 1440px) {
   .experience-item {
     width: calc(50% - 1rem);
   }
