@@ -156,11 +156,11 @@ header.sticky {
   width: 100%;
   max-width: 460px;
   border-radius: 20%;
-  filter: grayscale(100%);
+  filter: drop-shadow(none);
 }
 
 .about img:hover {
-  filter: grayscale(0%);
+  filter: drop-shadow(6px 6px 10px var(--main-color));
 }
 
 .main-text {
@@ -368,7 +368,6 @@ form textarea {
   right: 2.1rem;
   width: 40px;
   height: 40px;
-  font-size: 16px;
   cursor: pointer;
   color: var(--text-color);
   background: var(--main-color);
@@ -509,6 +508,12 @@ form textarea {
     row-gap: 0.9rem;
     text-align: center;
   }
+  .menu-toggle {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -531,12 +536,81 @@ form textarea {
 @media (max-width: 830px) {
   header {
     justify-content: flex-start;
+    gap: 0.5rem;
   }
   .hi {
     display: none;
   }
-  .logo {
+
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: var(--text-color);
+    background: var(--main-color);
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+  .menu-toggle:hover {
+    background: transparent;
+    border-inline: 1px solid var(--main-color);
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideUp {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+  .mobile-menu.open {
     display: block;
+    width: clamp(290px, 95%, 750px);
+    animation: slideDown 1s ease forwards;
+  }
+  .mobile-menu.closed {
+    animation: slideUp 1s ease forwards;
+  }
+  .wrapMob {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    height: 40px;
+    font-size: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-color);
+  }
+  .navbarMob {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    gap: 0.2rem;
+    justify-content: space-around;
+  }
+  .navbarMob a {
+    color: var(--text-color);
+    font-size: 0.8rem;
+  }
+  .navbarMob a:hover {
+    background: var(--main-color);
+    color: var(--second-color);
   }
 }
 
