@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.bdacfc28.css",
-    "main.js": "/my_portfolio/static/js/main.5aaffcf3.js",
+    "main.css": "/my_portfolio/static/css/main.ed2e3b41.css",
+    "main.js": "/my_portfolio/static/js/main.e5829ea6.js",
     "static/media/Vitalii_Malyk_developer.pdf": "/my_portfolio/static/media/Vitalii_Malyk_developer.e2427b540bf32d49cf90.pdf",
     "static/media/hero.svg": "/my_portfolio/static/media/hero.09ec162a770b488a1517281d3e84a139.svg",
     "static/media/bootstrap.svg": "/my_portfolio/static/media/bootstrap.129dc2142537a80b07fffbc181c46b5b.svg",
@@ -27,11 +27,11 @@
     "static/media/mdi--linkedin.svg": "/my_portfolio/static/media/mdi--linkedin.f27a2535baf0dddc452596bbcd23830c.svg",
     "static/media/arrowUP.svg": "/my_portfolio/static/media/arrowUP.77e6984f9cd0613c5b887aeb795cb13a.svg",
     "static/media/burger-menu.svg": "/my_portfolio/static/media/burger-menu.4048f322428da240f2091dae51c4b19e.svg",
-    "main.bdacfc28.css.map": "/my_portfolio/static/css/main.bdacfc28.css.map",
-    "main.5aaffcf3.js.map": "/my_portfolio/static/js/main.5aaffcf3.js.map"
+    "main.ed2e3b41.css.map": "/my_portfolio/static/css/main.ed2e3b41.css.map",
+    "main.e5829ea6.js.map": "/my_portfolio/static/js/main.e5829ea6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdacfc28.css",
-    "static/js/main.5aaffcf3.js"
+    "static/css/main.ed2e3b41.css",
+    "static/js/main.e5829ea6.js"
   ]
 }
