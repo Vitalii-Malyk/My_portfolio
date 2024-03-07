@@ -27,7 +27,10 @@ const Contact = () => {
             <a href="mailto:malyk.vitaliy@gmail.com">malyk.vitaliy@gmail.com</a>
           </li>
           <li>
-            <a href="tel:+420736746211">+420736746211</a>
+            <a href="tel:+380994091743">+380 994-091-743 (UA)</a>
+          </li>
+          <li>
+            <a href="tel:+420736746211">+420 736-746-211 (CR)</a>
           </li>
         </ul>
         <div className="contact-icons">
