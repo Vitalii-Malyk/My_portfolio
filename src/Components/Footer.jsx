@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="last-text">
         <p>Developed with love by Vitalii Malyk © 2024</p>
       </div>
-      <a href="#" className="top">
+      <a href="javascript:void(0)" className="top">
         <i className="bx bx-up-arrow-alt">
           <ArrowUP />
         </i>
