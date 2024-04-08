@@ -4,6 +4,13 @@ import Project from "./Project";
 const Portfolio = () => {
   const data = [
     {
+      name: "InnerHarmony",
+      des: "Adaptive application for finding experienced psychologists.",
+      live: "https://vitalii-malyk.github.io/InnerHarmony/",
+      github: "https://github.com/Vitalii-Malyk/InnerHarmony",
+      shot: "https://res.cloudinary.com/dlhwk4nof/image/upload/v1712606588/InnerHarmony_i1hquw.png",
+    },
+    {
       name: "PowerPulse",
       des: "An application for personalized diet adjustment based on the user's physical characteristics and lifestyle.",
       live: "https://powerpulse-fitness.netlify.app/welcome",
